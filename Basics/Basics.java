@@ -6,5 +6,10 @@ public class Main{
         int b=4;
         int sum=a+b;
         System.out.println(sum);
+        int mul=a*b;
+        System.out.println(mul);
+        int diff=a-b;
+        System.out.println(diff);
+
     }
 }
