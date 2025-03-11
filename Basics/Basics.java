@@ -1,9 +1,11 @@
 import java.util.Scanner;
 public class Main{
     public static void main(String[] args){
+        //Adding a scanner function in my code
         Scanner scanner=new Scanner(System.in);
         int x=scanner.nextInt();
-
+        
+        //Using if else staement to find whether the given number is =ve or -ve or 0
         if(x>0){
             System.out.println("Positive");
         } else {
@@ -13,8 +15,11 @@ public class Main{
                 System.out.println("Zero");
             }
         }
+        
         System.out.println("Hello World");
         System.out.println("Welcome to my java world");
+
+        //Writng some basic codes for pure basics to be clear
         int a=2;
         int b=4;
         int sum=a+b;
