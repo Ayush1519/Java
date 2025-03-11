@@ -25,6 +25,8 @@ public class Main{
         System.out.println(diff);
         int div=a/b;
         System.out.println(div);
+        itn modulo=a%b;
+        System.out.println(modulo);
 
     }
 }
