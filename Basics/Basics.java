@@ -15,9 +15,11 @@ public class Main{
                 System.out.println("Zero");
             }
         }
-
+        
+        //taking day as input from the user
         int day=scanner.nextInt();
-
+        
+        //Using switch statement to print he day it is
         Switch(day) {
             case 1:System.out.println("Monday");
             break;
