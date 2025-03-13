@@ -6,8 +6,8 @@ public class Main{
         int x=scanner.nextInt();
         
         //Using if else staement to find whether the given number is =ve or -ve or 0
-        if(x>0){
-            System.out.println("Positive");
+        if(x>0){//condition
+            System.out.println("Positive");//
         } else {
             if(x<0){
                 System.out.println("Negative");
