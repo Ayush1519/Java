@@ -4,8 +4,13 @@ public class Main{
         //Adding a scanner function in my code
         Scanner scanner=new Scanner(System.in);
         int x=scanner.nextInt();
+        String name = scanner.nextLine(); 
+
+        System.out.println(name); 
+    }
+}
         
-        //Using if else staement to find whether the given number is =ve or -ve or 0
+        //Using if else staement to find whether the given number is +ve or -ve or 0
         if(x>0){//condition
             System.out.println("Positive");//
         } else {
