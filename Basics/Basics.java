@@ -4,9 +4,9 @@ public class Main{
         //Adding a scanner function in my code
         Scanner scanner=new Scanner(System.in);
         int x=scanner.nextInt();
-        String name = scanner.nextLine(); 
+        String name = scanner.nextLine(); // Store input as String
 
-        System.out.println(name); 
+        System.out.println(name); // Print the name
     }
 }
         
