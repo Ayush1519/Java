@@ -3,6 +3,7 @@ public class Main{
         int n=4;
         int m=5;
         
+        //Printing patterns
         for(int i=1; i<=n; i++){
             System.out.println("*");
         }
