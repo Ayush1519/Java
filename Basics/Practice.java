@@ -36,5 +36,16 @@ public class Main {
         } else{
             System.out.println("Can't say");
         }  
+        
+        
+		int x=scanner.nextInt();
+		int y=scanner.nextInt();
+        
+        x=x+y;
+        y=x-y;
+        x=x-y;
+		
+		System.out.println(x);
+		System.out.println(y);
 	}
 }
