@@ -37,7 +37,7 @@ public class Main {
             System.out.println("Can't say");
         }  
         
-        
+        //Java program to swap two numbers
 		int x=scanner.nextInt();
 		int y=scanner.nextInt();
         
