@@ -79,5 +79,12 @@ public class Main {
             firstTerm = secondTerm;
             secondTerm = nextTerm;
         }
+
+
+        double tempratureinCelcius=scanner.nextDouble();
+        
+        double tempratureinFahrenheit=tempratureinCelcius*9/5+32;
+        System.out.println(tempratureinFahrenheit);
+      
 	}
 }
