@@ -86,7 +86,7 @@ public class Main {
         double tempratureinFahrenheit=tempratureinCelcius*9/5+32;
         System.out.println(tempratureinFahrenheit);
 
-        
+       
         System.out.print("Enter a number: ");
         int num = scanner.nextInt();
         int count = 0;
@@ -102,6 +102,6 @@ public class Main {
         }
         System.out.println("Number of digits: " + count);
        
-
+      
 	}
 }
