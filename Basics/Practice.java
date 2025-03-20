@@ -48,7 +48,7 @@ public class Main {
 		System.out.println(x);
 		System.out.println(y);
 
-
+        //Java program to write reverse of a number using palindrome
         System.out.print("Enter a number: ");
         int num = scanner.nextInt();
         int originalNum = num;
