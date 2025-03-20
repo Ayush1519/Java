@@ -80,7 +80,7 @@ public class Main {
             secondTerm = nextTerm;
         }
 
-
+        //conerting temprature from celcius to fahrenheit
         double tempratureinCelcius=scanner.nextDouble();
         
         double tempratureinFahrenheit=tempratureinCelcius*9/5+32;
