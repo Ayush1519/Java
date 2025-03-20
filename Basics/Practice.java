@@ -67,7 +67,7 @@ public class Main {
             System.out.println(originalNum + " is not a palindrome.");
         }
 
-
+        //Java program to write fibonacci series
         System.out.print("Enter the number of terms: ");
         int n = scanner.nextInt();
         int firstTerm = 0, secondTerm = 1;
