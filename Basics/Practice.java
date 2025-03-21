@@ -102,6 +102,7 @@ public class Main {
         }
         System.out.println("Number of digits: " + count);
        
+        System.out.println()
       
 	}
 }
