@@ -1,6 +1,10 @@
 import java.util.Scanner;
 
 public class Main {
+;
+    public static int calculateSum(int a, int b){
+        return a+b;
+    }
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         // Printing the number in reverse and checking if it is a palindrome or not
@@ -102,7 +106,11 @@ public class Main {
         }
         System.out.println("Number of digits: " + count);
        
-        System.out.println()
+        int a=scanner.nextInt();
+        int b=scanner.nextInt();
+
+        int sum=calculateSum(a,b);
+        System.out.println("Sum of 2 numbers is"+sum=a+b)
       
 	}
 }
