@@ -5,6 +5,11 @@ public class Main {
     public static int calculateSum(int a, int b){
         return a+b;
     }
+
+    public static int calculateProduct(int a, int b){
+        return a*b;
+    }
+
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         // Printing the number in reverse and checking if it is a palindrome or not
@@ -111,6 +116,9 @@ public class Main {
 
         int sum=calculateSum(a,b);
         System.out.println("Sum of 2 numbers is"+sum=a+b)
+
+        int product=calculateProduct(a,b);
+        System.out.println("The product of 2 numbers is"+product=a*b);
       
 	}
 }
