@@ -1,4 +1,22 @@
 import java.util.Scanner;
+class Student {
+    String name;
+    int rollNumber;
+    double marks;
+
+    public Student(String name, int rollNumber, double marks) {
+        this.name = name;
+        this.rollNumber = rollNumber;
+        this.marks = marks;
+    }
+
+    public void displayDetails() {
+        System.out.println("Name: " + name);
+        System.out.println("Roll Number: " + rollNumber);
+        System.out.println("Marks: " + marks);
+        System.out.println("--------------------------");
+    }
+}
 
 public class Main {
 ;
@@ -119,6 +137,16 @@ public class Main {
 
         int product=calculateProduct(a,b);
         System.out.println("The product of 2 numbers is"+product=a*b);
+
+
+        Student student1 = new Student("Ayush", 101, 85.5);
+        Student student2 = new Student("Ayush1", 102, 90.0);
+
+        System.out.println("Student 1 Details:");
+        student1.displayDetails();
+
+        System.out.println("\nStudent 2 Details:");
+        student2.displayDetails();
       
 	}
 }
