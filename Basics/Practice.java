@@ -18,6 +18,31 @@ class Student {
     }
 }
 
+class MobilePhones{
+    String type;
+    float display_size;
+    int pixel;
+    int ram;
+    int memory_size;
+
+    MobilePhones(String type, float display_size, int pixel, int ram, int memory_size) {
+        this.type=type;
+        this.display_size=display_size;
+        this.pixel=pixel;
+        this.ram=ram;
+        this.memory_size=memory_size;
+    }
+
+    void displayInfo() {
+        System.out.println("Type: " + type);
+        System.out.println("Display Size : " + display_size);
+        System.out.println("Pixel: " + pixel);
+        System.out.println("Ram: " + ram);
+        System.out.println("Memory Size: " + memory_size);
+        System.out.println("------------------------------------");
+    }
+}
+
 public class Main {
 ;
     public static int calculateSum(int a, int b){
@@ -147,6 +172,15 @@ public class Main {
 
         System.out.println("\nStudent 2 Details:");
         student2.displayDetails();
+
+        MobilePhones mobile1 = new MobilePhones("Ayush", 101, 85.5);
+        MobilePhones mobile2 = new MobilePhones("Ayush1", 102, 90.0);
+
+        System.out.println("mobile 1 Details:");
+        mobile1.displayDetails();
+
+        System.out.println("\nmobile 2 Details:");
+        mobile2.displayDetails();
       
 	}
 }
