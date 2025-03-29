@@ -20,12 +20,12 @@ class Student {
 
 class MobilePhones{
     String type;
-    float display_size;
+    double display_size;
     int pixel;
     int ram;
     int memory_size;
 
-    MobilePhones(String type, float display_size, int pixel, int ram, int memory_size) {
+    MobilePhones(String type, double display_size, int pixel, int ram, int memory_size) {
         this.type=type;
         this.display_size=display_size;
         this.pixel=pixel;
@@ -44,7 +44,6 @@ class MobilePhones{
 }
 
 public class Main {
-;
     public static int calculateSum(int a, int b){
         return a+b;
     }
@@ -173,14 +172,14 @@ public class Main {
         System.out.println("\nStudent 2 Details:");
         student2.displayDetails();
 
-        MobilePhones mobile1 = new MobilePhones("Ayush", 101, 85.5);
-        MobilePhones mobile2 = new MobilePhones("Ayush1", 102, 90.0);
+        MobilePhones mobile1 = new MobilePhones("Smartphone", 18.7, 87, 8, 256);
+        MobilePhones mobile2 = new MobilePhones("Smartphone", 18.6, 85, 6, 128);
 
         System.out.println("mobile 1 Details:");
-        mobile1.displayDetails();
+        mobile1.displayInfo();
 
         System.out.println("\nmobile 2 Details:");
-        mobile2.displayDetails();
+        mobile2.displayInfo();
       
 	}
 }
