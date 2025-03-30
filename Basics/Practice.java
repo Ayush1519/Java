@@ -1,15 +1,18 @@
 import java.util.Scanner;
 class Student {
+    //instance variable
     String name;
     int rollNumber;
     double marks;
-
+ 
+    //Making a constructor
     public Student(String name, int rollNumber, double marks) {
         this.name = name;
         this.rollNumber = rollNumber;
         this.marks = marks;
     }
-
+    
+    //
     public void displayDetails() {
         System.out.println("Name: " + name);
         System.out.println("Roll Number: " + rollNumber);
@@ -171,7 +174,7 @@ public class Main {
 
         System.out.println("\nStudent 2 Details:");
         student2.displayDetails();
-
+        
         MobilePhones mobile1 = new MobilePhones("Smartphone", 18.7, 87, 8, 256);
         MobilePhones mobile2 = new MobilePhones("Smartphone", 18.6, 85, 6, 128);
 
