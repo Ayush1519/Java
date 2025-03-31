@@ -205,6 +205,26 @@ public class Main {
         System.out.println("Count of Positive Numbers: " + positiveCount);
         System.out.println("Count of Negative Numbers: " + negativeCount);
         System.out.println("Count of Zeros: " + zeroCount);
-      
+        
+        int rows= scanner.nextInt();
+        int cols= scanner.nextInt();
+
+        int[][] numbers= new int[rows][cols];
+
+        for(int i=0; i<rows; i++) {
+            for(int j=0; j<cols; j++) {
+                numbers[i][j] = scanner.nextInt();
+            }
+        }
+
+        int x=  scanner.nextInt();
+
+        for(int i=0; i<rows; i++) {
+            for(int j=0; j<cols; j++){
+                if(numbers[i][j] == x) {
+                    system.out.println("X found at the place("+ i +","+j+")");
+                }
+            }
+        }
 	}
 }
