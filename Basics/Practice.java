@@ -206,6 +206,7 @@ public class Main {
         System.out.println("Count of Negative Numbers: " + negativeCount);
         System.out.println("Count of Zeros: " + zeroCount);
         
+        //printing rows and columns of matrices and also printing the index  for a number
         int rows= scanner.nextInt();
         int cols= scanner.nextInt();
 
