@@ -46,6 +46,22 @@ class MobilePhones{
     }
 }
 
+class Student_123 {
+    String name;
+    int roll_no;
+
+    Student_123(String name1, int roll_no1) {
+        name = name1;
+        roll_no = roll_no1;
+    }
+
+
+    void display() {
+        System.out.println(name + " " + roll_no);
+    }
+}
+
+
 public class Main {
     public static int calculateSum(int a, int b){
         return a+b;
@@ -227,5 +243,13 @@ public class Main {
                 }
             }
         }
+
+        System.out.println("Enter name:");
+        String name = sc.next();
+        System.out.println("Enter roll_no:");
+        int roll_no = sc.nextInt();
+
+        Student_123 s1 = new Student_123(name, roll_no);
+        s1.display();
 	}
 }
