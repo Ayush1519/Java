@@ -61,6 +61,25 @@ class Student_123 {
     }
 }
 
+class Student_123 {
+    String name;
+    int age;
+
+    Student_123(){
+        
+    }
+    Student_123(String name1, int age1) {
+        name = name1;
+        age = age1;
+    }
+
+
+    void display() {
+        System.out.println(name + " " + age);
+    }
+}
+
+
 
 public class Main {
     public static int calculateSum(int a, int b){
@@ -251,5 +270,14 @@ public class Main {
 
         Student_123 s1 = new Student_123(name, roll_no);
         s1.display();
+
+         System.out.println("Enter name:");
+        String name = sc.next();
+        System.out.println("Enter age:");
+        int age = sc.nextInt();
+
+        Student_123 s1 = new Student_123(name, age);
+        s1.display();
+
 	}
 }
