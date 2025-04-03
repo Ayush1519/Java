@@ -1,3 +1,4 @@
+// Parent class
 class Animal {
     String name;
     String type;
@@ -13,6 +14,7 @@ class Animal {
     }
 }
 
+// Child class for Mammals
 class Mammal extends Animal {
     String sound;
 
@@ -27,6 +29,7 @@ class Mammal extends Animal {
     }
 }
 
+// Child class for Birds
 class Bird extends Animal {
     String flyingAbility;
 
@@ -41,6 +44,7 @@ class Bird extends Animal {
     }
 }
 
+// Zoo Management System
 public class ZooManagementSystem {
     public static void main(String[] args) {
         Mammal lion = new Mammal("Lion", "Carnivore", "Roar");
