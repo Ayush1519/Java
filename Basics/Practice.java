@@ -12,7 +12,7 @@ class Student {
         this.marks = marks;
     }
     
-    //
+    //Displaying details
     public void displayDetails() {
         System.out.println("Name: " + name);
         System.out.println("Roll Number: " + rollNumber);
