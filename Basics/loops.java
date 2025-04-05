@@ -15,7 +15,7 @@ public class Main{
             System.out.println();
         }
 
-
+        //Using some pattern printing
         for(int i=1; i<=n; i++){
             for(int j=1; j<=i; j++){
                 System.out.print("* ");
