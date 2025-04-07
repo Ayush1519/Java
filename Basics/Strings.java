@@ -13,6 +13,8 @@ public class Main {
             sb.setCharAt(front, backChar);
             sb.setCharAt(back, frontChar);
         }
+
+        sb.delete(0, 2);
         System.out.println(sb);
     }
 }
