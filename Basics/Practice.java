@@ -37,7 +37,9 @@ class Student {
     }
 }
 
+
 class MobilePhones{
+    //Instance variable
     String type;
     double display_size;
     int pixel;
