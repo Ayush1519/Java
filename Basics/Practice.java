@@ -1,7 +1,7 @@
 import java.util.Scanner;
 class Calculator {
     // Method to add two integers
-    public int add(int a, int b) {
+    public int add(int a, int b) {//function
         return a + b;
     }
 
