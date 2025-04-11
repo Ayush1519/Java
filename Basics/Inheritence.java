@@ -1,5 +1,6 @@
 // Parent class
 class Animal {
+    //Instance variables
     String name;
     String type;
 
