@@ -3,7 +3,8 @@ class Animal {
     //Instance variables
     String name;
     String type;
-
+ 
+    //constructor 
     public Animal(String name, String type) {
         this.name = name;
         this.type = type;
