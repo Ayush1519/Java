@@ -80,6 +80,7 @@ class Student_123 {
 }
 
 class Student_123 {
+    //Instance variable
     String name;
     int age;
 
