@@ -46,6 +46,24 @@ class Bird extends Animal {
     }
 }
 
+class P1{
+    System.out.println("Parent class");
+}
+
+class C1 extends P1{
+    System.out.println("Child class");
+}
+
+void dispalyInfo{
+    System.out.println();
+}
+
+class Main {
+    public static void main(String [] args) {
+        P1 obj= new C1();
+        obj.displayInfo;
+    }
+}
 // Zoo Management System
 public class ZooManagementSystem {
     public static void main(String[] args) {
