@@ -103,7 +103,8 @@ class MobilePhones{
         this.ram=ram;
         this.memory_size=memory_size;
     }
-
+    
+    //displaying 
     void displayInfo() {
         System.out.println("Type: " + type);
         System.out.println("Display Size : " + display_size);
