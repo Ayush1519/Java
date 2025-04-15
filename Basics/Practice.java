@@ -26,7 +26,37 @@ class Shape {
 
 class Triangle extends Shape {
     void area(int h, int b) {
-        System.out.println(0.5 * b * h); 
+        System.out.println(0.5 * b * h); Scanner sc = new Scanner(System.in); // Scanner object
+
+        int h = sc.nextInt();
+        int b = sc.nextInt();
+        int r = sc.nextInt();
+
+        Triangle t1 = new Triangle();
+        t1.area(h, b); // Calls Triangle's area method
+
+        Circle c1 = new Circle();
+        c1.area(r); // Calls Circle's area methodScanner sc = new Scanner(System.in); // Scanner object
+
+        int h = sc.nextInt();
+        int b = sc.nextInt();
+        int r = sc.nextInt();
+
+        Triangle t1 = new Triangle();
+        t1.area(h, b); // Calls Triangle's area method
+
+        Circle c1 = new Circle();
+        c1.area(r); // Calls Circle's area methodScanner sc = new Scanner(System.in); // Scanner object
+
+        int h = sc.nextInt();
+        int b = sc.nextInt();
+        int r = sc.nextInt();
+
+        Triangle t1 = new Triangle();
+        t1.area(h, b); // Calls Triangle's area method
+
+        Circle c1 = new Circle();
+        c1.area(r); // Calls Circle's area method
     }
 }
 
