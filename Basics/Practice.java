@@ -15,6 +15,26 @@ class Calculator {
         return a + b;
     }
 }
+
+import java.util.Scanner;
+
+class Shape {
+    void area() {
+        System.out.println("Shape");
+    }
+}
+
+class Triangle extends Shape {
+    void area(int h, int b) {
+        System.out.println(0.5 * b * h); 
+    }
+}
+
+class Circle extends Shape {
+    void area(int r) {
+        System.out.println(3.14 * r * r);
+    }
+}
 class Student {
     //instance variable
     String name;
@@ -303,6 +323,18 @@ public class Main {
         System.out.println("Sum of two integers: " + calc.add(5, 10));       // Calls add(int, int)
         System.out.println("Sum of three integers: " + calc.add(5, 10, 15)); // Calls add(int, int, int)
         System.out.println("Sum of two doubles: " + calc.add(5.5, 10.5));    // Calls add(double, double)
+        
 
+        Scanner sc = new Scanner(System.in); 
+
+        int h = sc.nextInt();
+        int b = sc.nextInt();
+        int r = sc.nextInt();
+
+        Triangle t1 = new Triangle();
+        t1.area(h, b); 
+
+        Circle c1 = new Circle();
+        c1.area(r); 
 	}
 }
