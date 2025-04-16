@@ -96,6 +96,7 @@ class MobilePhones{
     int ram;
     int memory_size;
 
+    //Constructor 
     MobilePhones(String type, double display_size, int pixel, int ram, int memory_size) {
         this.type=type;
         this.display_size=display_size;
