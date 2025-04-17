@@ -37,7 +37,8 @@ class Triangle extends Shape {
 
         Circle c1 = new Circle();
         c1.area(r); // Calls Circle's area methodScanner sc = new Scanner(System.in); // Scanner object
-
+        
+        //Taking input
         int h = sc.nextInt();
         int b = sc.nextInt();
         int r = sc.nextInt();
