@@ -16,8 +16,6 @@ class Calculator {
     }
 }
 
-import java.util.Scanner;
-
 class Shape {
     void area() {
         System.out.println("Shape");
@@ -150,7 +148,28 @@ class Student_123 {
         System.out.println(name + " " + age);
     }
 }
+class Library {
+	String title;
+	String author;
+	int publicationyear;
+	String identifier;
+	boolean availability;
 
+	Library(String title,String author,int publicationyear, String identifier,boolean availability) {
+		this.title=title;
+		this.author=author;
+		this.publicationyear=publicationyear;
+		this.identifier=identifier;
+		this.availability=availability;
+	}
+	void displayInfo() {
+		System.out.println("Title: "+title);
+		System.out.println("Author: "+author);
+		System.out.println("Publication year: "+publicationyear);
+		System.out.println("Identifier: "+identifier);
+		System.out.println("Availability: "+availability);
+	}
+}
 
 
 public class Main {
@@ -369,5 +388,8 @@ public class Main {
 
         Circle c1 = new Circle();
         c1.area(r); 
+
+        Library l1=new Library("Down towards Earth","Ayush",2025,"axaxax",true);
+		l1.displayInfo();
 	}
 }
