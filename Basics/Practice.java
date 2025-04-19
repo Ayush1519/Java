@@ -172,16 +172,19 @@ class Library {
 }
 
 class Stu {
+    //static variable is used
     static int a = 100;
     void show() {
         System.out.println("The value of a is: "+a);
         a++;
     }
     
+    //Static Block
     static {
         System.out.println("Thsi is a static Block");
     }
     
+    //static method
     static void displayInfo() {
         System.out.println("This  is static method");
     }
