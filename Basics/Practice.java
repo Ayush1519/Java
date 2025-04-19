@@ -171,6 +171,22 @@ class Library {
 	}
 }
 
+class Stu {
+    static int a = 100;
+    void show() {
+        System.out.println("The value of a is: "+a);
+        a++;
+    }
+    
+    static {
+        System.out.println("Thsi is a static Block");
+    }
+    
+    static void displayInfo() {
+        System.out.println("This  is static method");
+    }
+}
+
 
 public class Main {
     public static int calculateSum(int a, int b){
@@ -391,5 +407,12 @@ public class Main {
 
         Library l1=new Library("Down towards Earth","Ayush",2025,"axaxax",true);
 		l1.displayInfo();
+
+
+        Stu s1 = new Stu();
+		Stu s2 = new Stu();
+		s1.show();
+		s2.show();
+		Stu.displayInfo();
 	}
 }
