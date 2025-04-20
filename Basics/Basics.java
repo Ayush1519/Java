@@ -10,6 +10,10 @@ public class Main{
     }
 }
         
+        for(int i=1; i<=5; i++) {
+	        int square=i*i;
+	        System.out.println(square);
+	    }
         //Using if else staement to find whether the given number is +ve or -ve or 0
         if(x>0){//condition
             System.out.println("Positive");//
@@ -47,7 +51,7 @@ public class Main{
         System.out.println("Hello World");
         System.out.println("Welcome to my java world");
 
-        //Writng some basic codes for pure basics to be clear
+        Writng some basic codes for pure basics to be clear
         int a=2;
         int b=4;
         int sum=a+b;
@@ -60,6 +64,7 @@ public class Main{
         System.out.println(div);
         itn modulo=a%b;
         System.out.println(modulo);
+        
 
     }
 }
