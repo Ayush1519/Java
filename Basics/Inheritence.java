@@ -1,9 +1,9 @@
-
+// Superclass: Person
 class Person {
     String name;
     int age;
 
-
+    // Constructor
     Person(String name, int age) {
         this.name = name;
         this.age = age;
@@ -14,9 +14,11 @@ class Person {
     }
 }
 
+// Subclass: Teacher (inherits from Person)
 class Teacher extends Person {
     String subject;
 
+    // Constructor (calls super)
     Teacher(String name, int age, String subject) {
         super(name, age); // Initialize Person class
         this.subject = subject;
@@ -27,9 +29,11 @@ class Teacher extends Person {
     }
 }
 
+// Class representing a School
 class School {
     String schoolName;
- 
+    
+    // Constructor
     School(String schoolName) {
         this.schoolName = schoolName;
     }
@@ -121,13 +125,14 @@ public class ZooManagementSystem {
 
 public class Main {
     public static void main(String[] args) {
-       
+        // Creating a teacher object
         Teacher teacher = new Teacher("Anil", 35, "Mathematics");
 
-       
+        // Display info
         teacher.displayInfo();
         teacher.teach();
 
+        // Creating a school object
         School school = new School("Green Valley High School");
         school.welcomeTeacher(teacher);
     }
