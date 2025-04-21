@@ -1,4 +1,45 @@
-// Parent class
+
+class Person {
+    String name;
+    int age;
+
+
+    Person(String name, int age) {
+        this.name = name;
+        this.age = age;
+    }
+
+    void displayInfo() {
+        System.out.println("Name: " + name + ", Age: " + age);
+    }
+}
+
+class Teacher extends Person {
+    String subject;
+
+    Teacher(String name, int age, String subject) {
+        super(name, age); // Initialize Person class
+        this.subject = subject;
+    }
+
+    void teach() {
+        System.out.println(name + " is teaching " + subject);
+    }
+}
+
+class School {
+    String schoolName;
+ 
+    School(String schoolName) {
+        this.schoolName = schoolName;
+    }
+
+    void welcomeTeacher(Teacher teacher) {
+        System.out.println("Welcome " + teacher.name + " to " + schoolName + "!");
+    }
+}
+
+//Parent class
 class Animal {
     //Instance variables
     String name;
@@ -75,5 +116,19 @@ public class ZooManagementSystem {
 
         System.out.println("\nBird Information:");
         parrot.displayBirdInfo();
+    }
+}
+
+public class Main {
+    public static void main(String[] args) {
+       
+        Teacher teacher = new Teacher("Anil", 35, "Mathematics");
+
+       
+        teacher.displayInfo();
+        teacher.teach();
+
+        School school = new School("Green Valley High School");
+        school.welcomeTeacher(teacher);
     }
 }
