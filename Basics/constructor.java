@@ -2,10 +2,12 @@ class Students{
     String name;
     int age;
     
+    //unparameterised constructor
     Students () {
         System.out.println("Unparameterised constructor called");
     }
     
+    //parameterised constructor
     Students(String name, int age) {
         this.name=name;
         this.age=age;
@@ -16,6 +18,7 @@ class Students{
         System.out.println("Age: "+age);
     }
     
+    //copy constructor
     Students (Students s2) {
         this.name =s2.name;
         this.age =s2.age;
