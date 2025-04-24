@@ -190,6 +190,21 @@ class Stu {
     }
 }
 
+class Pen {
+    String type;
+    String color;
+
+    Pen(String type, String color) {
+        this.type = type; 
+        this.color =color;
+    }
+
+    void display() {
+        System.out.println("Type: "+type);
+        System.out.println("Color: "+color);
+    }
+}
+
 
 public class Main {
     public static int calculateSum(int a, int b){
@@ -417,5 +432,8 @@ public class Main {
 		s1.show();
 		s2.show();
 		Stu.displayInfo();
+
+        Pen p1 = new Pen("Jel", "BLack");
+        p1.display();
 	}
 }
