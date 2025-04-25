@@ -1,9 +1,9 @@
 // Define an interface
 interface Payment {
-    void processPayment(double amount); 
+    void processPayment(double amount); // Abstract method
 }
 
-
+// Implement the interface in a class
 class CreditCardPayment implements Payment {
     @Override
     public void processPayment(double amount) {
@@ -20,11 +20,11 @@ class PayPalPayment implements Payment {
 
 public class PaymentDemo {
     public static void main(String[] args) {
-        
+        // Create objects implementing the interface
         Payment payment1 = new CreditCardPayment();
         Payment payment2 = new PayPalPayment();
 
-        
+        // Process payments
         payment1.processPayment(5000);
         payment2.processPayment(3000);
     }
