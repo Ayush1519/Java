@@ -1,0 +1,36 @@
+abstract class Animal {
+    abstract void makeSound();
+        
+        Animal() {
+            System.out.println("It is a Abstract class Constructor");
+        }
+
+        void canEat() {
+            System.out.println("Animals can eat");
+        }
+}
+
+class Dog extends Animal {
+    void makeSound() {
+        System.out.println("Dog barking");
+    }
+}
+
+class Cat extends Animal {
+    void makeSound() {
+        System.out.println("Cat says meow meow");
+    }
+}
+
+class Main {
+    public static void main(String[] args) {
+        Animal myAnimal1 = new Dog();
+        Animal myAnimal2 = new Cat();
+        myAnimal1.makeSound();
+        myAnimal1.canEat();
+        
+        myAnimal2.makeSound();
+        myAnimal2.canEat();
+
+    }
+}
