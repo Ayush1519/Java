@@ -8,7 +8,8 @@ class Person {
         this.name = name;
         this.age = age;
     }
-
+    
+    //diaplaying information
     void displayInfo() {
         System.out.println("Name: " + name + ", Age: " + age);
     }
