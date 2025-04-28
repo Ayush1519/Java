@@ -138,3 +138,43 @@ public class Main {
         school.welcomeTeacher(teacher);
     }
 }
+
+class C1 {
+    void sound() {
+        System.out.println("Can make sound");
+    }
+}
+
+class C2 extends C1{
+    void eat() {
+        System.out.println("Can eat");
+    }
+}
+
+class Animal{
+    void makeSound() {
+        System.out.println("Animals make sound");
+    }
+}
+
+class Dog extends Animal{ 
+    void barks() {
+        System.out.println("Dod barks");
+    }
+}    
+class Puppy extends Dog {
+    void weep() {
+        System.out.println("Puppy is weeping");
+    }
+}
+class S1 {
+    public static void main(String[] args) {
+        C2 c1 = new C2();
+        c1.eat();
+        
+        Puppy p1 = new Puppy();
+        p1.makeSound();
+        p1.barks();
+        p1.weep();
+    }
+}
