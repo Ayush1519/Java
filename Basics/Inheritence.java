@@ -178,3 +178,35 @@ class S1 {
         p1.weep();
     }
 }
+
+abstract class A{
+    abstract void makeSound();
+    void canEat() {
+        System.out.println("Can eat");
+    }
+}
+
+class B extends A {
+    super.makeSound();
+    void canTalk() {
+        System.out.println("Can talk");
+    }
+}
+
+class C extends B {
+    super.makeSound();
+    super.canTalk();
+    void canWalk() {
+        System.out.println("Can easily walk");
+    }
+}
+
+public class Main
+{
+	public static void main(String[] args) {
+		C a1 = new C();
+		a1.canWalk();
+		a1.canTalk();
+		a1.makeSound();
+	}
+}
