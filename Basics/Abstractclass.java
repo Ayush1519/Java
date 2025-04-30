@@ -10,6 +10,7 @@ abstract class Animal {
         }
 }
 
+//here we have used runtime polymorphism
 class Dog extends Animal {
     void makeSound() {
         System.out.println("Dog barking");
