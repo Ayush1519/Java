@@ -61,6 +61,7 @@ class Triangle extends Shape {
 
 class Circle extends Shape {
     void area(int r) {
+        //printing output
         System.out.println(3.14 * r * r);
     }
 }
