@@ -8,6 +8,7 @@ public class Main{
             System.out.println("*");
         }
 
+        //printing a 2D pattern
         for(int i=1; i<=n; i++){
             for(int j=1; j<=m; j++){
                 System.out.print("* ");
