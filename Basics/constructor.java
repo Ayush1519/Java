@@ -9,7 +9,7 @@ class Students{
     
     //parameterised constructor
     Students(String name, int age) {
-        this.name=name;
+        this.name=name;//name constructor
         this.age=age;
     }
     
