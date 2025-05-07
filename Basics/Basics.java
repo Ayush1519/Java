@@ -24,6 +24,12 @@ public class Main{
                 System.out.println("Zero");
             }
         }
+
+        scanner sc = new scanner(System.in);
+        int a= sc.nextInt();
+        int b= sc.nextInt();
+        int avg = a+b;
+        System.out.println(avg);
         
         //taking day as input from the user
         int day=scanner.nextInt();
