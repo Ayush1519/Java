@@ -11,7 +11,7 @@ class Calculator {
     }
 
     // Method to add two double values
-    public double add(double a, double b) {
+    public double add(double a, double b) {//function
         return a + b;
     }
 }
