@@ -12,6 +12,7 @@ class CreditCardPayment implements Payment {
 }
 
 class PayPalPayment implements Payment {
+    //overriding the function
     @Override
     public void processPayment(double amount) {
         System.out.println("Processing PayPal payment of ₹" + amount);
