@@ -16,12 +16,15 @@ class Calculator {
     }
 }
 
+
+//creating a Shape class
 class Shape {
     void area() {
         System.out.println("Shape");
     }
 }
 
+//using shape class in the child class as Traingle
 class Triangle extends Shape {
     void area(int h, int b) {
         System.out.println(0.5 * b * h); Scanner sc = new Scanner(System.in); // Scanner object
