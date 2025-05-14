@@ -101,6 +101,7 @@ class MobilePhones{
 
     //Constructor 
     MobilePhones(String type, double display_size, int pixel, int ram, int memory_size) {
+        //using this keyword
         this.type=type;
         this.display_size=display_size;
         this.pixel=pixel;
