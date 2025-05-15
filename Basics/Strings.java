@@ -9,7 +9,8 @@ public class Main {
 
             char frontChar = sb.charAt(front);
             char backChar = sb.charAt(back);
-
+            
+            //using set
             sb.setCharAt(front, backChar);
             sb.setCharAt(back, frontChar);
         }
