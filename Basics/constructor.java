@@ -29,7 +29,7 @@ class Students{
 public class Main
 {
 	public static void main(String[] args) {
-        //comments
+        //naming new things
 		Students s1= new Students("Ayush", 19);
 		s1.displayInfo();
 		Students s2 = new Students(s1);
