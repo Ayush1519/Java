@@ -1,4 +1,4 @@
-import java.util.Scanner;
+import java.util.*;
 class Calculator {
     // Method to add two integers
     public int add(int a, int b) {//function
@@ -441,5 +441,14 @@ public class Main {
 
         Pen p1 = new Pen("Jel", "BLack");
         p1.display();
+
+        Scanner sc = new Scanner(System.in);
+		String firstName = sc.nextLine();
+        String lastName = sc.nextLine();
+        String fullName = firstName+" " +lastName;
+
+        for(int i=0; i<fullName.length(); i++) {
+            System.out.println(fullName.charAt(i));
+        }
 	}
 }
