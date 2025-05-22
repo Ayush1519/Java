@@ -450,5 +450,20 @@ public class Main {
         for(int i=0; i<fullName.length(); i++) {
             System.out.println(fullName.charAt(i));
         }
+
+        String s1=sc.nextLine();
+String s2=sc.next();
+String s3=sc.next();
+
+String[] words = s1.split("");
+System.out.println("Count words:"+words.length);
+
+
+String modifieds1 = s1.replace(s2,s3);
+System.out.println("Modified:"+modifieds1);
+
+
+StringBuffer sb = new StringBuffer(modifieds1);
+System.out.println("Uppercase:"+sb.toString().toUpperCase());
 	}
 }
