@@ -470,10 +470,12 @@ System.out.println("Uppercase:"+sb.toString().toUpperCase());
         int a=sc.nextInt();
 	    int b=sc.nextInt();
 	    
+        //swap
 	    a=a+b;
 	    b=a-b;
 	    a=a-b;
 	    
+        //sum of digits
 	    int sum=0;
 	    while(a>0){
 	       sum +=a%10;
