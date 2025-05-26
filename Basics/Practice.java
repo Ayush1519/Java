@@ -465,5 +465,23 @@ System.out.println("Modified:"+modifieds1);
 
 StringBuffer sb = new StringBuffer(modifieds1);
 System.out.println("Uppercase:"+sb.toString().toUpperCase());
+
+
+        int a=sc.nextInt();
+	    int b=sc.nextInt();
+	    
+	    a=a+b;
+	    b=a-b;
+	    a=a-b;
+	    
+	    int sum=0;
+	    while(a>0){
+	       sum +=a%10;
+	       a/=10;
+	    }
+	    
+	    System.out.println(sum);
+	    
+		System.out.println(a+" "+b);
 	}
 }
