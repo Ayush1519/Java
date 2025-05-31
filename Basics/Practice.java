@@ -120,6 +120,7 @@ class MobilePhones{
     }
 }
 
+//defing a instance class
 class Student_123 {
     String name;
     int roll_no;
