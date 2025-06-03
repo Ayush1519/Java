@@ -8,7 +8,7 @@ class Main {
     }
 
     public static void main(String[] args) {
-        String password = "Hello123"; 
-        System.out.println(isValidPassword(password));
+        String password = "Hello123"; // Example password
+        System.out.println(isValidPassword(password)); // Prints true or false
     }
 }
