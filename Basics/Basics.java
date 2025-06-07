@@ -50,7 +50,7 @@ public class Main{
             break;
             case 7:System.out.println("Sunday");
             break;
-            default:System.out.println("Invalid day")");
+            default:System.out.println("Invalid day")");//using default statement
 
         }
         
