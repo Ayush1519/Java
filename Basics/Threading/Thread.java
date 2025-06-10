@@ -4,7 +4,7 @@ class ThreadPrint extends Thread {
     }
 }
 
-class EvenThread extends Thread {
+class EvenThread extends Thread {//making a class named as even thread
     public void run() {
         for (int i = 0; i <= 20; i += 2) {
             System.out.println("Even number: " + i);
@@ -12,7 +12,7 @@ class EvenThread extends Thread {
     }
 }
 
-class OddThread extends Thread {
+class OddThread extends Thread {//making a class named as odd thread to store odd values 
     public void run() {
         for (int i = 1; i <= 20; i += 2) {
             System.out.println("Odd number: " + i);
@@ -20,7 +20,7 @@ class OddThread extends Thread {
     }
 }
 
-class MultipleThread extends Thread {
+class MultipleThread extends Thread {//making a class named multiple thread to print multiple of 5 from 1 to 20
     public void run() {
         for(int i=1; i<20;i++) {
             System.out.println("Multiple of 5 is:"+ i*5);
@@ -34,8 +34,8 @@ public class Main{
         OddThread thread2 = new OddThread();
         MultipleThread thread3 = new MultipleThread();
 
-        thread1.start();
-        thread2.start();
-        thread3.start();
+        thread1.start();//calling EvenThread 
+        thread2.start();//calling OddThread
+        thread3.start();//calling MultipleThread
     }
 }
