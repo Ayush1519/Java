@@ -3,7 +3,7 @@ class Main {
         if (password.length() < 8) {
             return false;
         }
-        char firstChar = password.charAt(0);
+        char firstChar = password.charAt(0);//char variable declared
         return !(firstChar >= '0' && firstChar <= '9');
     }
 
