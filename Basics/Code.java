@@ -1,6 +1,6 @@
 class Main {
     public static boolean isValidPassword(String password) {
-        if (password.length() < 8) {
+        if (password.length() < 8) {// using password.length to print the length
             return false;
         }
         char firstChar = password.charAt(0);//char variable declared
