@@ -8,5 +8,9 @@ class FileEx{
         } else{
             System.out.println("File not created");
         }
+
+        FileWriter fr = new FileWriter("Test3.txt");
+        fr.write("Hello!");
+        fr.close();
     }
 }
