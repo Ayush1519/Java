@@ -10,7 +10,7 @@ class FileEx{
         }
 
         FileWriter fr = new FileWriter("Test3.txt");
-        fr.write("Hello!");
+        fr.write("Hello!");//writing into a file
         fr.close();
     }
 }
