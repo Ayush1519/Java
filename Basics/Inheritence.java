@@ -9,8 +9,8 @@ class Person {
         this.age = age;
     }
     
-    //diaplaying information
-    void displayInfo() {
+    //displaying information
+    void displayInfo() {//function
         System.out.println("Name: " + name + ", Age: " + age);
     }
 }
