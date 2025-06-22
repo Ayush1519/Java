@@ -22,7 +22,7 @@ class FileEx{
             System.out.prinln(s);
         }
 
-        int a = sc .nextInt();
+        int a = sc .nextInt();//taking input 
         int b = sc .nextInt();
 
         a=a+b;//to swap to numbers without using third variable
