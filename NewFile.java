@@ -30,6 +30,6 @@ class FileEx{
         a=a-b;
 
         System.out.println(a);//printing value
-        System.out.println(b);
+        System.out.println(b);//printing value
     }
 } 
