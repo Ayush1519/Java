@@ -35,7 +35,7 @@ class FileEx{
         int a[] = new int[2];
 		try{
 		    System.out.println("a[4]:"+a[4]);
-		} catch(ArrayIndexOutOfBoundsException e) {
+		} catch(ArrayIndexOutOfBoundsException e) {//Expected exception
 		    System.out.println(e);
 		} finally {
 		    a[1]= 30;
