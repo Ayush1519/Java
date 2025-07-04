@@ -18,7 +18,7 @@ class FileEx{
         File f1 = new File("Test4.txt");
         Scanner sc =new Scanner(f1);
         if(sc.hasNextLine()) {
-            String s = sc.nextLine();
+            String s = sc.nextLine();//taking input 
             System.out.prinln(s);
         }
 
