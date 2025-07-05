@@ -26,7 +26,7 @@ class FileEx{
         int b = sc .nextInt();//taking input 
 
         a=a+b;//to swap to numbers without using third variable
-        b=a-b;
+        b=a-b;//to swap to numbers without using third variable
         a=a-b;//to swap to numbers without using third variable
 
         System.out.println(a);//printing value
