@@ -19,7 +19,7 @@ class FileEx{
         Scanner sc =new Scanner(f1);
         if(sc.hasNextLine()) {
             String s = sc.nextLine();//taking input 
-            System.out.prinln(s);
+            System.out.prinln(s);//printing value
         }
 
         int a = sc .nextInt();//taking input 
