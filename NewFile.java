@@ -32,7 +32,7 @@ class FileEx{
         System.out.println(a);//printing value
         System.out.println(b);//printing value
 
-        int a[] = new int[2];
+        int a[] = new int[2];//array
 		try{
 		    System.out.println("a[4]:"+a[4]);
 		} catch(ArrayIndexOutOfBoundsException e) {//Expected exception
