@@ -33,7 +33,7 @@ class FileEx{
         System.out.println(b);//printing value
 
         int a[] = new int[2];//array
-		try{
+		try{//try and catch block usage
 		    System.out.println("a[4]:"+a[4]);
 		} catch(ArrayIndexOutOfBoundsException e) {//Expected exception
 		    System.out.println(e);
