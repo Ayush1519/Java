@@ -37,7 +37,7 @@ class FileEx{
 		    System.out.println("a[4]:"+a[4]);
 		} catch(ArrayIndexOutOfBoundsException e) {//Expected exception
 		    System.out.println(e);
-		} finally {
+		} finally {//using finally keyword
 		    a[1]= 30;
 		    System.out.println("a[1]:"+a[1]);//printing value
 		    System.out.println("End of the program");//printing value
