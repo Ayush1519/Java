@@ -6,7 +6,7 @@ class FileEx{
         Scanner sc = new Scanner(System.in);
         File f = new File("Test.txt");//creates new file named as Test.txt
         if(f.createNewFile()) {
-            System.out.println("File created");
+            System.out.println("File created");//output
         } else{
             System.out.println("File not created");
         }
