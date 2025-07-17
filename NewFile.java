@@ -8,7 +8,7 @@ class FileEx{
         if(f.createNewFile()) {
             System.out.println("File created");//output
         } else{
-            System.out.println("File not created");
+            System.out.println("File not created");//giving output
         }
     
         FileWriter fr = new FileWriter("Test3.txt");
