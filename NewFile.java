@@ -7,7 +7,7 @@ class FileEx{
         File f = new File("Test.txt");//creates new file named as Test.txt
         if(f.createNewFile()) {
             System.out.println("File created");//output
-        } else{
+        } else{//used else statement
             System.out.println("File not created");//giving output
         }
     
