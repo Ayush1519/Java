@@ -1,6 +1,6 @@
 class ThreadPrint extends Thread {
     public void run() {
-        System.out.println("Thread using thread class");
+        System.out.println("Thread using thread class");//giving the output
     }
 }
 
