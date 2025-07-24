@@ -1,5 +1,5 @@
 abstract class Animal {
-    abstract void makeSound();
+    abstract void makeSound();//method
         
         Animal() {  //Constructor
             System.out.println("It is a Abstract class Constructor");
