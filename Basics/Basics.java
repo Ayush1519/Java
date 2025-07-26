@@ -11,7 +11,7 @@ public class Main{
 }
         
         for(int i=1; i<=5; i++) {
-	        int square=i*i;
+	        int square=i*i;//doing some operations
 	        System.out.println(square);
 	    }
         //Using if else staement to find whether the given number is +ve or -ve or 0
