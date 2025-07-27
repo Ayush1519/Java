@@ -1,5 +1,5 @@
 import java.io.*;
-import java.util.*;
+import java.util.*;//to import all the libraries
 
 class FileEx{
     public static void main(String[] args) throws IOException {
