@@ -29,7 +29,7 @@ class Triangle extends Shape {
     void area(int h, int b) {
         System.out.println(0.5 * b * h); Scanner sc = new Scanner(System.in); // Scanner object
 
-        int h = sc.nextInt();
+        int h = sc.nextInt();//taking input
         int b = sc.nextInt();
         int r = sc.nextInt();
 
