@@ -11,3 +11,4 @@ Conditionals,Loops
 Classes
 //Leetcode
 //Trees
+//Linked List
