@@ -10,5 +10,5 @@ Arrays
 Conditionals,Loops
 Classes
 //Leetcode
-//Trees
+//Trees-Binary Tree
 //Linked List
