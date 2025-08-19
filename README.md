@@ -11,4 +11,4 @@ Conditionals,Loops
 Classes
 //Leetcode
 //Trees-Binary Tree
-//Linked List
+//Linked List-Singly
