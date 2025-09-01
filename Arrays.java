@@ -11,7 +11,7 @@ public class Main {
                 System.out.print(num[i][j]+" ");
             }
         }
-        System.out.println();
+        System.out.println();//used for new line
     
   }
 }
