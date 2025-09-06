@@ -222,7 +222,7 @@ class Animal{
 
 class Mammal extends Animal{
     void breathe() {
-        System.out.println("Mammal breathes air");
+        System.out.println("Mammal breathes air");//printing output
     }
 }
 
