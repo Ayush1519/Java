@@ -60,7 +60,7 @@ class Animal {
     //displaying name and type
     public void displayInfo() {
         System.out.println("Animal Name: " + name);
-        System.out.println("Type: " + type);
+        System.out.println("Type: " + type);//printing output
     }
 }
 
