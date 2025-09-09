@@ -40,7 +40,7 @@ class School {
     }
 
     void welcomeTeacher(Teacher teacher) {
-        System.out.println("Welcome " + teacher.name + " to " + schoolName + "!");
+        System.out.println("Welcome " + teacher.name + " to " + schoolName + "!");//printing the output
     }
 }
 
