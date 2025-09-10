@@ -4,7 +4,7 @@ class Main {
             return false;//using return keyword
         }
         char firstChar = password.charAt(0);//char variable declared
-        return !(firstChar >= '0' && firstChar <= '9');
+        return !(firstChar >= '0' && firstChar <= '9');//using return statement
     }
 
     public static void main(String[] args) {
