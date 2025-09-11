@@ -9,7 +9,7 @@ public class Main
 		int division=(a/b);
 		int num = 10 / 0;
         int arr[] = new int[5];
-        arr[10] = 50; 
+        arr[10] = 50; //intializing the array
 		System.out.println(division);
 		} catch (ArithmeticException e) {
             System.out.println("Error: Cannot divide by zero.");
