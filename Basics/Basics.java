@@ -55,7 +55,7 @@ public class Main{
         }
         
         System.out.println("Hello World");
-        System.out.println("Welcome to my java world");
+        System.out.println("Welcome to my java world");//greetings
 
         Writng some basic codes for pure basics to be clear
         int a=2;
