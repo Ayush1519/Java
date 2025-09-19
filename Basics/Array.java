@@ -11,6 +11,14 @@ class Main{
             sum += arr1[i] + arr2[i];
         }
         System.out.println("sum:"+sum);
+
+        int[] arr2 = {1, 2, 3, 4, 5};
+        int sum =0;
+        for(int i=0; i<arr1.length; i++){
+            sub += arr1[i] - arr2[i];
+        }
+        System.out.println("sub:"+sub);
+        
         int[] arr2 = {1, 2, 3, 4, 5};
         
         int[][] mul = new int[arr1.length][arr2.length];
