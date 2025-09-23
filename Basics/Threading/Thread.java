@@ -30,7 +30,7 @@ class MultipleThread extends Thread {//making a class named multiple thread to p
 
 public class Main{
     public static void main(String[] args) {
-        EvenThread thread1 = new EvenThread();
+        EvenThread thread1 = new EvenThread();//creating object
         OddThread thread2 = new OddThread();
         MultipleThread thread3 = new MultipleThread();
 
