@@ -1,4 +1,4 @@
-class Animal{
+class Animal{//Parent class
     void sound(){
         
     }
