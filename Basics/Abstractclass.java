@@ -5,7 +5,7 @@ abstract class Animal {
             System.out.println("It is a Abstract class Constructor");
         }
 
-        void canEat() {
+        void canEat() {//void is used to return nothing
             System.out.println("Animals can eat");
         }
 }
