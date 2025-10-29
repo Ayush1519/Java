@@ -13,7 +13,7 @@ public class Main {
         }
         System.out.println();//used for new line
 
-    int matrix1[3][3], matrix2[3][3], sum[3][3];
+    int matrix1[3][3], matrix2[3][3], sum[3][3];//matrix declared
     
     
     
