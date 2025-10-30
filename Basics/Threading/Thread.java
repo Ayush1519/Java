@@ -22,7 +22,7 @@ class OddThread extends Thread {//making a class named as odd thread to store od
 
 class MultipleThread extends Thread {//making a class named multiple thread to print multiple of 5 from 1 to 20
     public void run() {
-        for(int i=1; i<20;i++) {
+        for(int i=1; i<20;i++) {//using for-loop
             System.out.println("Multiple of 5 is:"+ i*5);
         }
     }
