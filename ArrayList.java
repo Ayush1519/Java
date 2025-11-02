@@ -9,6 +9,7 @@ public class Aydev{
     System.out.println(li);
     
     li.remove(1); 
+    li.add("C#");
     System.out.println(li);
   }   
 }
