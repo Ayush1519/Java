@@ -16,7 +16,7 @@ class Circle implements Shape{
 
 class Triangle implements Shape{
     public void getShape(){
-        System.out.println("This is the Triangle class.");
+        System.out.println("This is the Triangle class.");//printing the output
     }
 } 
 public class Main
