@@ -1,4 +1,4 @@
-import java.io.*;
+import java.io.*;//imports all classes from java.io package
 import java.util.*;//to import all the libraries
 
 class FileEx{
