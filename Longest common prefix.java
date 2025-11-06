@@ -5,7 +5,7 @@ class Solution {
     if (strs.empty())
       return "";
 
-    for (int i = 0; i < strs[0].length(); i++){
+    for (int i = 0; i < strs[0].length(); i++){//using for loop
         for (int j = 1; j < strs.size(); j++){
         if (i == strs[j].length() || strs[j][i] != strs[0][i])
           return strs[0].substr(0, i);
