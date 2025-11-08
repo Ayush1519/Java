@@ -15,7 +15,7 @@ class EvenThread extends Thread {//making a class named as even thread
 class OddThread extends Thread {//making a class named as odd thread to store odd values 
     public void run() {
         for (int i = 1; i <= 20; i += 2) {
-            System.out.println("Odd number: " + i);
+            System.out.println("Odd number: " + i);//t print the output
         }
     }
 }
