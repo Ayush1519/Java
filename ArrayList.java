@@ -2,7 +2,7 @@ import java.util.*;
 
 public class Aydev{
   public static void main (String [] ar) {
-    ArrayList<String> li = new ArrayList<>(); 
+    ArrayList<String> li = new ArrayList<>(); //new array list collection
     li.add("Java"); //.add is used to add anything in the arraylist
     li.add("Python"); 
     li.add("C++"); 
