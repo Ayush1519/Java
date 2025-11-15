@@ -4,7 +4,7 @@ public class Main {
     int[] num = new int[]{1, 2, 3, 4, 5};//array declared
     System.out.println(num[2]); // Output: 3
 
-    int[][] num = {{1,2},{3,4}};
+    int[][] num = {{1,2},{3,4}};//array declared
         
         for(int i=0; i<num.length; i++) {
             for(int j=0; j<num[i].length; j++) {
