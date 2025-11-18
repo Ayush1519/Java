@@ -13,7 +13,7 @@ public class Aydev{
     System.out.println(li);//printing the output
 
     List<Integer> l1 = new ArrayList<>();
-        l1.add(1);
+        l1.add(1);//used to add the elments in the arraylist
         l1.add(2);
         System.out.println("Integer list: " + l1);//printing the output
   }   
