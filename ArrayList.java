@@ -8,7 +8,7 @@ public class Aydev{
     li.add("C++"); 
     System.out.println(li);
     
-    li.remove(1); 
+    li.remove(1); //used to remove an element
     li.add("C#");
     System.out.println(li);//printing the output
 
