@@ -10,7 +10,7 @@ class Rectangle implements Shape{
 
 class Circle implements Shape{
     public void getShape(){
-        System.out.println("This is the Circle class.");
+        System.out.println("This is the Circle class.");//printing the output
     }
 } 
 
