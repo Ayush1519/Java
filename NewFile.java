@@ -1,7 +1,7 @@
 import java.io.*;//imports all classes from java.io package
 import java.util.*;//to import all the libraries
 
-class FileEx{
+class FileEx{//class defined
     public static void main(String[] args) throws IOException {
         Scanner sc = new Scanner(System.in);
         File f = new File("Test.txt");//creates new file named as Test.txt
