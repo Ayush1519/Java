@@ -2,7 +2,7 @@ interface Shape{
     void getShape();
 }
 
-class Rectangle implements Shape{
+class Rectangle implements Shape{//class rectangle built
     public void getShape(){
         System.out.println("This is the Rectangle class.");
     }
