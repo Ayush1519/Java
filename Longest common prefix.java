@@ -2,7 +2,7 @@
 class Solution {
  public:
   string longestCommonPrefix(vector<string>& strs) {
-    if (strs.empty())
+    if (strs.empty())//used if control statement to check if strs is empty
       return "";
 
     for (int i = 0; i < strs[0].length(); i++){//using for loop
