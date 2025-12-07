@@ -25,6 +25,9 @@ class FileEx{//class defined
         int a = sc .nextInt();//taking input 
         int b = sc .nextInt();//taking input 
 
+		int mul = a*b;//multiplying a with b
+		System.out.println(mul);
+
         a=a+b;//to swap to numbers without using third variable
         b=a-b;//to swap to numbers without using third variable
         a=a-b;//to swap to numbers without using third variable
