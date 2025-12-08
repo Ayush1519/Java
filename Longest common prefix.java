@@ -1,5 +1,5 @@
 
-class Solution {
+class Solution {//class declared
  public:
   string longestCommonPrefix(vector<string>& strs) {
     if (strs.empty())//used if control statement to check if strs is empty
