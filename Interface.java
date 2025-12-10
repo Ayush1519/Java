@@ -3,7 +3,7 @@ interface Shape{
 }
 
 class Rectangle implements Shape{//class rectangle built
-    public void getShape(){
+    public void getShape(){//function
         System.out.println("This is the Rectangle class.");//printing the output
     }
 } 
