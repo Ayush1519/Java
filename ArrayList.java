@@ -14,7 +14,7 @@ public class Aydev{
 
     List<Integer> l1 = new ArrayList<>();
         l1.add(1);//used to add the elments in the arraylist
-        l1.add(2);
+        l1.add(2);//used to add the elments in the arraylist
         System.out.println("Integer list: " + l1);//printing the output
   }   
 }
