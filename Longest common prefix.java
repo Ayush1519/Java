@@ -1,7 +1,7 @@
 
 class Solution {//class declared
  public:
-  string longestCommonPrefix(vector<string>& strs) {
+  string longestCommonPrefix(vector<string>& strs) {//function declared
     if (strs.empty())//used if control statement to check if strs is empty
       return "";
 
