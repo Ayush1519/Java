@@ -1,4 +1,4 @@
-import java.util.*;
+import java.util.*;//library
 
 public class Aydev{
   public static void main (String [] ar) {
