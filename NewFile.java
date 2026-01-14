@@ -11,7 +11,7 @@ class FileEx{//class defined
             System.out.println("File not created");//giving output
         }
     
-        FileWriter fr = new FileWriter("Test3.txt");
+        FileWriter fr = new FileWriter("Test3.txt");//Filewriter declared
         fr.write("Hello!");//writing into a file
         fr.close();
 
