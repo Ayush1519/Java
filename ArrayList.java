@@ -5,7 +5,7 @@ public class Aydev{
     ArrayList<String> li = new ArrayList<>(); //new array list collection
     li.add("Java"); //.add is used to add anything in the arraylist
     li.add("Python"); 
-    li.add("C++"); //add the elements
+    li.add("C++");
     System.out.println(li);//print statment
     
     li.remove(1); //used to remove an element
@@ -14,7 +14,7 @@ public class Aydev{
 
     List<Integer> l1 = new ArrayList<>();
         l1.add(1);//used to add the elments in the arraylist
-        l1.add(2);//used to add the elments in the arraylist
+        l1.add(2);
         System.out.println("Integer list: " + l1);//printing the output
   }   
 }
