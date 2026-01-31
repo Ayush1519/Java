@@ -22,7 +22,7 @@ class Triangle implements Shape{
 public class Main
 {
 	public static void main(String[] args) {
-		Shape s1 = new Rectangle();
+		Shape s1 = new Rectangle();//object of shape class
 		s1.getShape();
 		
 		Shape s2 = new Circle();
