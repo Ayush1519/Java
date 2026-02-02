@@ -1,4 +1,4 @@
-import java.util.*;
+import java.util.*;//main library
 public class Main {
   public static void main(String[] args) {
     int[] arr = {1, 2, 3, 4, 5};//array declared
