@@ -4,7 +4,7 @@ public class Main {
     int[] arr = {1, 2, 3, 4, 5};//array declared
     System.out.println(arr[2]); // Output: 3
 
-    int[][] matrix = {{1,2},{3,4}};//array declared
+    int[][] matrix = {{1,2},{3,4}};//matrix declared
         for(int i=0; i<matrix.length; i++) {//using for loop
             for(int j=0; j<matrix[i].length; j++) {
                 System.out.print(matrix[i][j]+" ");
