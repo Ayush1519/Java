@@ -12,6 +12,6 @@ class Solution {//class declared
 
       }
     }    
-    return strs[0];
+    return strs[0];//returns string
   }
 };
