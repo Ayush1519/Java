@@ -1,6 +1,6 @@
 import java.util.*;//library
 
-public class Aydev{
+public class Aydev{//class declared
   public static void main (String [] ar) {
     ArrayList<String> li = new ArrayList<>(); //new array list collection
     li.add("Java"); //.add is used to add anything in the arraylist
