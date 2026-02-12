@@ -4,7 +4,7 @@ public class Aydev{//class declared
   public static void main (String [] ar) {
     ArrayList<String> li = new ArrayList<>(); //new array list collection
     li.add("Java"); //.add is used to add anything in the arraylist
-    li.add("Python"); 
+    li.add("Python");//.add is used to add anything in the arraylist 
     li.add("C++");
     System.out.println(li);//print statment
     
