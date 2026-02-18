@@ -16,5 +16,7 @@ public class Aydev{//class declared
         l1.add(1);//used to add the elments in the arraylist
         l1.add(2);
         System.out.println("Integer list: " + l1);//printing the output
+
+    return 0;
   }   
 }
