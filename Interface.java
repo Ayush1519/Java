@@ -19,7 +19,7 @@ class Triangle implements Shape{
         System.out.println("This is the Triangle class.");//printing the output
     }
 } 
-public class Main
+public class Main//main class
 {
 	public static void main(String[] args) {
 		Shape s1 = new Rectangle();//object of shape class
