@@ -17,7 +17,7 @@ class FileEx{//class defined
 
         File f1 = new File("Test4.txt");
         Scanner sc =new Scanner(f1);
-        if(sc.hasNextLine()) {
+        if(sc.hasNextLine()) {//if-control statement is used
             String s = sc.nextLine();//taking input 
             System.out.prinln(s);//printing value
         }
