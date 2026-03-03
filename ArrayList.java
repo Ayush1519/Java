@@ -17,6 +17,6 @@ public class Aydev{//class declared
         l1.add(2);
         System.out.println("Integer list: " + l1);//printing the output
 
-    return 0;
+    return 0;//return statement
   }   
 }
