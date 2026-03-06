@@ -1,4 +1,3 @@
-
 class Solution {//class declared
  public:
   string longestCommonPrefix(vector<string>& strs) {//function declared
