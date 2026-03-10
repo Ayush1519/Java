@@ -6,7 +6,7 @@ public class Main {//main class
 
     int[][] matrix = {{1,2},{3,4}};//matrix declared
         for(int i=0; i<matrix.length; i++) {//using for loop
-            for(int j=0; j<matrix[i].length; j++) {
+            for(int j=0; j<matrix[i].length; j++) {//using another for loop
                 System.out.print(matrix[i][j]+" ");//printing the output
             }
         }
