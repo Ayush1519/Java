@@ -9,7 +9,7 @@ public class Aydev{//class declared
     System.out.println(li);//print statment
     
     li.remove(1); //used to remove an element
-    li.add("C#");
+    li.add("C#");//used to add 
     System.out.println(li);//printing the output
 
     List<Integer> l1 = new ArrayList<>();//Collection
