@@ -17,6 +17,21 @@ public class Aydev{//class declared
         l1.add(2);//used to add the elments in the arraylist
         System.out.println("Integer list: " + l1);//printing the output
 
+
+    ArrayList<String> al = new ArrayList<>();
+        al.add("Ayush");
+        al.add("Ayush");
+
+      	System.out.println("Original List : "+al);
+        al.add(1, "Singh");
+      	System.out.println("After Adding element at index 1 : "+ al);
+      	al.remove(0);
+      	System.out.println("Element removed from index 0 : "+ al);
+      	al.remove("Ayush");
+      	System.out.println("Element Ayush removed : "+ al);
+      	al.set(0, "Ayush");
+        System.out.println("List after updation of value : "+al);
+
     return 0;//return statement
   }   
 }
