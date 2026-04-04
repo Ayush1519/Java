@@ -28,7 +28,7 @@ public class Aydev{//class declared
       	al.remove(0);
       	System.out.println("Element removed from index 0 : "+ al);
       	al.remove("Ayush");
-      	System.out.println("Element Ayush removed : "+ al);
+      	System.out.println("Element Ayush removed : "+ al);//printing the output
       	al.set(0, "Ayush");
         System.out.println("List after updation of value : "+al);
 
